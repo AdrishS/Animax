@@ -1,0 +1,15 @@
+.movie__poster {
+  border-radius: 1px;
+  max-height: 200px;
+  margin-right: 10px;
+  object-fit: contain;
+  transition: 0.3s;
+}
+.movie__poster:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.large-poster {
+  max-height: 250px;
+}
